@@ -11,7 +11,7 @@ console.log("The person's name is: ", fullName);
 person.job = 'Web Developer';
 console.log("The person's current job is: ", person.job);
 
-person.previousJob = 'Student';
-console.log("The person's previous job is: ", person.previousJob);
+person['previousJob'] = 'Student';
+console.log("The person's previous job is: ", person['previousJob']);
 
-console.log(person);
+console.log('The complete person object is: ', person);
